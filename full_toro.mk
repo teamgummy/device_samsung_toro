@@ -26,6 +26,7 @@ PRODUCT_PACKAGES := \
     Camera \
     Gallery \
     FileManager \
+    LibertySettings \
     PhaseBeam \
     HoloSpiralWallpaper
     
