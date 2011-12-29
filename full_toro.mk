@@ -28,7 +28,8 @@ PRODUCT_PACKAGES := \
     FileManager \
     LibertySettings \
     PhaseBeam \
-    HoloSpiralWallpaper
+    HoloSpiralWallpaper \
+    Stk
     
 
 #if we do this after the full_base_telephony is included some of these don't get picked up..
