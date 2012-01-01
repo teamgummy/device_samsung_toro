@@ -29,6 +29,8 @@ PRODUCT_PACKAGES := \
     LibertySettings \
     PhaseBeam \
     HoloSpiralWallpaper \
+    LibertyLauncher \
+    Gummypapers \
     Stk
     
 
