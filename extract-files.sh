@@ -55,6 +55,9 @@ adb pull /system/vendor/lib/libsec-ril_lte.so ../../../vendor/$MANUFACTURER/$DEV
 adb pull /system/vendor/lib/libsrv_init.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libsrv_init.so
 adb pull /system/vendor/lib/libsrv_um.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libsrv_um.so
 adb pull /system/vendor/lib/libusc.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libusc.so
+adb pull /system/etc/permissions/com.vzw.hardware.ehrpd.xml ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/com.vzw.hardware.ehrpd.xml
+adb pull /system/etc/permissions/com.vzw.hardware.lte.xml ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/com.vzw.hardware.lte.xml
+adb pull /system/etc/permissions/com.vzw.vzwapnlib.xml ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/com.vzw.vzwapnlib.xml
 
 (cat << EOF) | sed s/__DEVICE__/$DEVICE/g | sed s/__MANUFACTURER__/$MANUFACTURER/g > ../../../vendor/$MANUFACTURER/$DEVICE/device-vendor-blobs.mk
 # Copyright (C) 2010 The Android Open Source Project

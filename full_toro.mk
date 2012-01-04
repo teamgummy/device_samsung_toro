@@ -21,18 +21,6 @@
 # lines, full and toro, hence its name.
 #
 
-# Camera
-PRODUCT_PACKAGES := \
-    Camera \
-    Gallery \
-    FileManager \
-    LibertySettings \
-    PhaseBeam \
-    HoloSpiralWallpaper \
-    LibertyLauncher \
-    Gummypapers \
-    Stk
-    
 
 #if we do this after the full_base_telephony is included some of these don't get picked up..
 PRODUCT_COPY_FILES += \
@@ -53,10 +41,5 @@ PRODUCT_DEVICE := toro
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Galaxy Nexus
 PRODUCT_MANUFACTURER := Samsung
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=mysid \
-BUILD_FINGERPRINT="google/mysid/toro:4.0.2/ICL53F/235179:user/release-keys" \
-PRIVATE_BUILD_DESC="mysid-user 4.0.2 ICL53F 235179 release-keys"
 
 
